@@ -19,3 +19,16 @@ Route::get('/', function () {
 Route::get('/user-login', function () {
     return view('user/user_auth');
 });
+Route::get('/admin-login', function () {
+    return view('admin/login');
+});
+
+Route::post('admin/get_login', 'AdminLoginController@adminLogin');
+
+Route::get('admin/logout', 'AdminLoginController@adminLogout');
+    // Route::get('/Dashboard', function () {
+    //     return view('admin/dashboard');
+    // });
+
+
+    Route::resource('Dashboard','ItemController');

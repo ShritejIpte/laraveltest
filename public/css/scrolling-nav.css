@@ -1,0 +1,565 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/templates/scrolling-nav)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+body {
+    font-family: 'Lato', sans-serif !important;
+}
+
+.navbar {
+    padding: 10px 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.30);
+}
+
+.landing-nav {
+    background-color: #ffffff;
+}
+
+.landing-nav.navbar-dark .navbar-nav .nav-link {
+    color: #0a5272;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif !important;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+section {
+    padding: 100px 0 0 0;
+}
+
+.section-title {
+    font-size: 40px;
+    color: #105697;
+    font-weight: 600;
+    line-height: 55px;
+    text-transform: uppercase;
+    font-family: 'Barlow', sans-serif !important;
+}
+
+.header-bg {
+    background-image: url(../images/header-bg.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0575a7;
+}
+
+.header-inner {
+    padding: 50px 0 50px 0;
+}
+
+.white-logo {
+    width: 20%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.shadow-text {
+    font-weight: 700;
+    font-size: 35px;
+    color: #fff;
+    line-height: 60px;
+    margin-bottom: 25px;
+    text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.33);
+}
+
+.header-inner .btn-primary {
+    font-weight: 700!important;
+    min-width: 150px;
+    box-shadow: 0px 0 30px rgba(0, 0, 0, 0.49);
+}
+
+.process-list li {
+    margin-bottom: 25px;
+}
+
+.process-list li.left-pad {
+    padding-left: 180px;
+}
+
+.process-list li.left-pad .content-panel {
+    width: 60%;
+}
+
+.process-list li .content-panel {
+    margin-left: 95px;
+    display: inline-block;
+    width: 70%;
+}
+
+.process-list li .icon-box {
+    float: left;
+    display: inline-block;
+    width: 200px;
+    height: 175px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.13);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.process-list li .icon-box.assessment {
+    background-image: url(../images/assessment.png);
+}
+
+.process-list li .icon-box.assessment:hover {
+    background-image: url(../images/assessment-hover.png);
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.35);
+    background-color: #0575a7;
+}
+
+.process-list li .icon-box.growth {
+    background-image: url(../images/growth-icon.png);
+}
+
+.process-list li .icon-box.growth:hover {
+    background-image: url(../images/growth-icon-hover.png);
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.35);
+    background-color: #0575a7;
+}
+
+.process-list li .icon-box.compare {
+    background-image: url(../images/compare-icon.png);
+}
+
+.process-list li .icon-box.compare:hover {
+    background-image: url(../images/compare-icon-hover.png);
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.35);
+    background-color: #0575a7;
+}
+
+.process-list li .icon-box.my-assessment {
+    background-image: url(../images/my-assesment.png);
+}
+
+.process-list li .icon-box.my-assessment:hover {
+    background-image: url(../images/my-assesment-hover.png);
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.35);
+    background-color: #0575a7;
+}
+
+.process-list h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #f18a19;
+    margin: 55px auto 25px auto;
+}
+
+.process-list p {
+    font-size: 16px;
+    color: #000;
+}
+
+.packages-holder {
+    padding: 35px 0;
+    background-color: #d8d8d8;
+    background-image: linear-gradient(to bottom, #d8d8d8, #b8b7b8);
+}
+
+.package-box {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 250px 15px 40px 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.50);
+}
+
+.package-box.free-trial,
+.package-box.premium {
+    height: 500px;
+}
+
+.package-box.pay-you-go,
+.package-box.subscriber-option {
+    height: 550px;
+}
+
+.price-box {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -50px;
+    bottom: auto;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    z-index: 200;
+    border-radius: 50%;
+    font-size: 40px;
+    color: #000;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 700;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
+}
+
+.package-name h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    padding-top: 95px;
+}
+
+.package-box .package-name {
+    position: absolute;
+    left: -5%;
+    right: -5%;
+    top: 0px;
+    bottom: auto;
+    margin: 0 auto;
+    width: 107%;
+    height: 240px;
+    z-index: 100;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: red; */
+    border-radius: 20px 20px 0 0;
+}
+
+.package-box.free-trial .package-name {
+    background-image: url(../images/free-trial.png);
+}
+
+.package-box.pay-you-go .package-name {
+    background-image: url(../images/pay-as-you-go.png);
+}
+
+.package-box.subscriber-option .package-name {
+    background-image: url(../images/subscriber-option.png);
+}
+
+.package-box.premium .package-name {
+    background-image: url(../images/premium.png);
+}
+
+.package-content li {
+    font-size: 20px;
+    color: #000;
+    line-height: 40px;
+}
+
+.package-content li span {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.package-box .btn-package {
+    position: absolute;
+    bottom: -15px;
+    top: auto;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 150px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.package-box.free-trial .btn-package {
+    background-color: #d8d8d8;
+    background-image: linear-gradient(to right, #0575a7, #0d4766);
+}
+
+.package-box.free-trial .btn-package:hover {
+    background-color: #d8d8d8;
+    background-image: linear-gradient(to left, #0575a7, #0d4766);
+}
+
+.package-box.pay-you-go .btn-package {
+    background-color: #d8d8d8;
+    background-image: linear-gradient(to right, #804ea0, #203d5e);
+}
+
+.package-box.pay-you-go .btn-package:hover {
+    background-color: #d8d8d8;
+    background-image: linear-gradient(to left, #804ea0, #203d5e);
+}
+
+.package-box.subscriber-option .btn-package {
+    background-color: #d8d8d8;
+    background-image: linear-gradient(to right, #804ea0, #203d5e);
+}
+
+.package-box.subscriber-option .btn-package:hover {
+    background-color: #d8d8d8;
+    background-image: linear-gradient(to left, #804ea0, #203d5e);
+}
+
+.package-box.premium .btn-package {
+    background-color: #d8d8d8;
+    background-image: linear-gradient(to right, #f26743, #2d4050);
+}
+
+.package-box.premium .btn-package:hover {
+    background-color: #d8d8d8;
+    background-image: linear-gradient(to left, #f26743, #2d4050);
+}
+
+.team-details:not(:last-child) {
+    margin-bottom: 80px;
+}
+
+.person-photo {
+    width: 130px;
+    height: 130px;
+    float: left;
+    margin-right: 35px;
+    display: inline-block;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.27);
+    border-radius: 50%;
+}
+
+.person-photo img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.team-details h3 {
+    color: #105697;
+    font-size: 30px;
+    padding-top: 20px;
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif !important;
+}
+
+.team-details p {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-form .form-control {
+    color: #747474;
+    border-radius: 0;
+    border-color: transparent;
+    background-color: #f2f2f2;
+    height: 45px;
+}
+
+.contact-form .col-form-label {
+    font-size: 16px;
+    color: #747474;
+}
+
+.contact-form .btn {
+    min-width: 100px;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0px 0 30px rgba(0, 0, 0, 0.49);
+}
+
+footer {
+    background-color: #0e64a4;
+    padding: 15px 0;
+}
+
+@media only screen and (max-width: 1024px) {
+    .process-list li .content-panel {
+        width: 60%;
+    }
+    .price-box {
+        font-size: 35px;
+    }
+    .package-name h2 {
+        font-size: 22px;
+    }
+    .package-box {
+        padding: 215px 15px 40px 15px;
+    }
+    .package-content li {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .header-bg {
+        background-size: contain;
+    }
+    .header-inner .img-fluid {
+        margin-bottom: 50px;
+        width: 85%;
+    }
+    .white-logo {
+        width: 30%;
+        float: none;
+        display: block;
+        margin: 2px auto 35px auto;
+        text-align: center;
+    }
+    .shadow-text {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 45px;
+        text-align: center;
+    }
+    .header-inner .btn-primary {
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+    .process-list li .content-panel {
+        margin-left: 50px !important;
+    }
+    .process-list li.left-pad {
+        padding-left: 0px;
+    }
+    .process-list h2 {
+        margin: 40px auto 25px auto;
+    }
+    .package-box .package-name {
+        width: 105%;
+    }
+    .package-box {
+        margin-bottom: 110px;
+    }
+    #team img.img-fluid {
+        width: 60%;
+        display: block;
+        margin: 0 auto 50px auto;
+    }
+    .package-box {
+        padding: 310px 15px 40px 15px;
+    }
+    .package-box.pay-you-go,
+    .package-box.subscriber-option,
+    .package-box.free-trial,
+    .package-box.premium {
+        height: 580px;
+    }
+    .package-name h2 {
+        font-size: 26px;
+    }
+    .package-box .package-name {
+        background-size: cover;
+        height: 284px;
+    }
+    .package-name h2 {
+        padding-top: 130px;
+    }
+    .package-box.premium,
+    .package-box.subscriber-option {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    section {
+        padding: 55px 0 0 0;
+    }
+    .section-title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .navbar-brand {
+        padding-left: 15px;
+    }
+    .navbar-brand img {
+        width: 60%;
+    }
+    .navbar-toggler {
+        padding: .50rem .60rem;
+        font-size: 1.1rem;
+        background-color: #f18a19;
+        border: 1px solid #0575a7;
+        border-radius: .25rem;
+        margin-right: 15px;
+        color: #fff !important;
+    }
+    .navbar {
+        padding: 3px 0px;
+    }
+    .navbar-collapse.collapse.show {
+        border-top: 1px solid #ececec;
+    }
+    .landing-nav.navbar-dark .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+    .header-inner .img-fluid {
+        margin-bottom: 30px;
+    }
+    .white-logo {
+        margin: 2px auto 20px auto;
+    }
+    .shadow-text {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 34px;
+        text-align: center;
+    }
+    .process-list li .icon-box {
+        width: 60px;
+        height: 60px;
+        border-radius: 6px;
+        background-size: 60%;
+    }
+    .process-list li .content-panel {
+        margin-left: 20px !important;
+        width: 75%;
+    }
+    .process-list li.left-pad .content-panel {
+        width: 75%;
+    }
+    .process-list h2 {
+        margin: 0px auto 10px auto;
+        font-size: 18px;
+    }
+    .process-list p {
+        font-size: 14px;
+        text-align: justify;
+        text-align-last: auto;
+    }
+    .package-box.premium {
+        margin-bottom: 0;
+    }
+    .package-box .package-name {
+        background-size: contain;
+        height: 313px;
+    }
+    .package-box {
+        padding: 335px 15px 40px 15px;
+    }
+    .package-box.pay-you-go,
+    .package-box.subscriber-option,
+    .package-box.free-trial,
+    .package-box.premium {
+        height: 590px;
+    }
+    .package-box.subscriber-option {
+        margin-bottom: 110px;
+    }
+    .team-details {
+        text-align: center;
+    }
+    .team-details h3 {
+        font-size: 26px;
+    }
+    .person-photo {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    .team-details p {
+        font-size: 16px;
+    }
+    footer .row .col-md-6 .text-white {
+        text-align: center !important;
+    }
+    footer .row .col-md-6:first-child .text-white {
+        margin-bottom: 10px;
+    }
+    .team-details:not(:last-child) {
+        margin-bottom: 40px;
+    }
+}
